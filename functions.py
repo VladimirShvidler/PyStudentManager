@@ -20,7 +20,7 @@ def print_students_titlecase():
 
 def save_file(student):
     try:
-        f = open("student.txt", "a")
+        f = open("students.txt", "a")
         f.write(student + "\n")
         f.close
     except Exception:
