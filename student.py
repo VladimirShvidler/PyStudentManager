@@ -15,7 +15,5 @@ class Student:
     def get_name_capitalize(self):
         return self.name.capitalize()
 
-
-mark = Student("Mark")
-andrey = Student(1)
-print(students[1])
+    def get_school_name(self):
+        return self.school_name
